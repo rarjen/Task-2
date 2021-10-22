@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 718px;
+    background-image: url(../bg/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.regular {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.bold {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+}
+.navuser {
+    position: absolute;
+    margin-right: 0;
+    color: white;
+    right: 100px;
+    line-height: 40px;
+}
+
+.navuser ul li{
+    font-size: 20px;
+    display: inline;
+
+}
+.navuser ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navuser ul li a:hover {
+    color: red;
+}
+
+.content {
+    justify-content: center;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    /* margin-top: 40px; */
+}
+
+.overlay {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;  
+}
+
+.content p{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+} 
